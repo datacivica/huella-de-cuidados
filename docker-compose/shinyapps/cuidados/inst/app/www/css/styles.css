@@ -699,7 +699,8 @@ a.m-by {
   display: flex;
   justify-content: center;
   height: 5%;
-  width: 75%;
+  max-height:fit-content;
+  width: auto;
   transition: 0.3s;
 }
 

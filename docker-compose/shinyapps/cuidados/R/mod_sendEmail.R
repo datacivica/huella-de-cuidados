@@ -63,7 +63,7 @@ mod_email_details_server <- function(id, user_values) {
             "%20%20%20%202.%20Ratificar%20el%20Convenio%20156%20sobre%20las%20y%20los%20trabajadores%20con%20responsabilidades%20familiares%20de%20la%20Organizaci%C3%B3n%20Internacional%20del%20Trabajo%20(OIT)%20para%20que%20hombres%20y%20mujeres%20con%20responsabilidades%20de%20cuidado%20puedan%20integrarse%20al%20mercado%20laboral.%0A",
             "%20%20%20%203.%20Legislar%20licencias%20de%20cuidado%20iguales%2C%20intransferibles%20y%20remuneradas%20para%20todas%20las%20personas%20trabajadoras.%0A",
             "%20%20%20%204.%20Impulsar%20una%20reforma%20fiscal%20progresiva%20que%20permita%20sustentar%20el%20Sistema%20Nacional%20de%20Cuidados.%0A",
-            "%0D%0ATodas%20las%20personas%20tenemos%20huella%20de%20cuidados%2C%20para%20conocer%20la%20suya%20visite%20http%3A%2F%2Fanimalpolitico.com%2Ftuhuelladecuidados%0A%0A"
+            "%0D%0ATodas%20las%20personas%20tenemos%20huella%20de%20cuidados%2C%20para%20conocer%20la%20suya%20visite%20https%3A%2F%2Fhuelladecuidados.datacivica.com%0A%0A"
           ),
           "Escríbele a tu representante",
           class = "email-button",
