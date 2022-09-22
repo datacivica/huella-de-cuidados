@@ -1,0 +1,26 @@
+version: "3.6"
+services:
+  shinyproxy:
+    image: datanovia/shinyproxy
+    container_name: dnv_shinyproxy
+    restart: on-failure
+    build: ./shinyproxy
+    networks:
+      - dnv-net
+    ports:
+      - 8080:8080
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./shinyproxy-logs/server:/log
+      - ./shinyproxy-logs/container:/container-logs
+      - ./shinyproxy/application.yml:/opt/shinyproxy/application.yml
+  cuidados:
+    image: cuidados
+    container_name: cuidados
+    build: ./shinyapps/cuidados
+    networks:
+      - dnv-net
+
+networks:
+  dnv-net:
+    name: dnv-net
